@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.navbar{
+    background-color: #FD6569;
+    padding: 10px;
+    border-radius: 7px;
+   
+}
+
+#container{
+    padding: 20px;
+}
+
+
+#contains{
+    background-color:black;
+    color:white;
+    width: 25%;
+    border-radius: 10px;
+    padding: 17px;
+    font-size: 20px;
+    font-family: arial narrow;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (max-width:400px) {
+    #contains{
+        background-color: black;
+        color: white;
+        width: 90%;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 15px;
+        font-family: arial narrow;
+        display: inline-block;
+        margin: 5px;
+        
+    }
+    
+}
+
+
+#contains h2{
+    color: #FD6569;
+}
+
+
+#contains button{
+    margin: 10px;
+    padding: 8px;
+    background-color: #FD6569;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+#getpopup{
+    background-color: #FD6569;
+    color: black;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 70px;
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    font-size: 25px;
+}
+
+@media screen and (max-width:400px) {
+    #getpopup{
+        margin-right: 80px;
+    }
+    
+}
+
+
+
+
+.poplayer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+
+#poptext{
+    background-color: #FD6569;
+    color: black;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    padding: 40px;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    display: none;
+
+}
+
+
+@media screen and (max-width:400px) {
+    #poptext{
+        background-color: #FD6569;
+        color: black;
+        width: 50%;
+        border-radius: 10px;
+        border: none;
+        padding: 15px;
+        margin: 10px;
+        padding: 40px;
+        align-items: center;
+        z-index: 2;
+        position: absolute;
+        top: 20%;
+        left: 11%;
+        display: none;
+    }
+    
+}
+
+#poptext input{
+   padding: 5px;
+   margin: 5px;
+    width: 100%;
+    color: black;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    
+}
+
+
+
+
+#poptext textarea{
+width: 100%;
+color: black;
+border: 2px solid black;
+font-size: 20px;
+padding: 5px;
+margin: 5px;
+border: 2px solid black;
+}
+
+
+#poptext input::placeholder{
+    color: black;
+}
+
+
+#poptext textarea::placeholder{
+    color: black;
+}
+
+
+#poptext button{
+    background-color:black;
+    color:white;
+    padding: 7px;
+    margin: 7px;
+    width: 60px;
+    font-size: 13px;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
