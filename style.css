@@ -29,7 +29,7 @@
     vertical-align: top;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:200px) {
     #contains{
         background-color: black;
         color: white;
