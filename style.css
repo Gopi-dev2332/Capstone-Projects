@@ -31,7 +31,7 @@
     
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     #contains{
         width: 100%;
     }
@@ -67,7 +67,7 @@
     font-size: 25px;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     #getpopup{
         margin-right: 80px;
     }
@@ -109,7 +109,7 @@
 }
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     #poptext{
         background-color: #FD6569;
         color: black;
